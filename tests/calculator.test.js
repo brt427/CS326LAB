@@ -17,8 +17,15 @@ describe('Calculator Calculation Functions', function() {
 
 
 describe('square function', function() {
-    const res = calculator.calculateSquare(3);
-    it('should return 9', function() {
-        assert.strictEqual(res, 9);
-    });
+  const res = calculator.calculateSquare(3);
+  it('should return 9', function() {
+    assert.strictEqual(res, 9);
+  });
+});
+
+describe('square root function', function() {
+  const res = calculator.calculateSquareRoot(9);
+  it('should return 3', function() {
+    assert.strictEqual(res, 3);
+  });
 });
