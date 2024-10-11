@@ -11,6 +11,7 @@ function calculateSquareRoot(value) {
 function calculateSquare(value) {
     // Hint: Use exponentiation
     // return the square root of the value
+    return value**2
 
 }
 
