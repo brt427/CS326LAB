@@ -20,6 +20,7 @@ function calculateReciprocal(value) {
 
 // TODO: Implement natural log function
 function naturalLog(value) {
+
     // return the natural log of the value
     return Math.log(value)
 
@@ -33,13 +34,20 @@ function sine(value) {
 
 }
 
-// TODO: Implement cosine function
 function cosine(value) {
+
+  return Math.cos(value);
+
   // return the cosine of the value
+
 }
 
 function tangent(value) {
+
+  // return the tangent of the value
+
   return Math.tan(value);
+
 }
 
 module.exports = {
