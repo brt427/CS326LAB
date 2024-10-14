@@ -29,3 +29,11 @@ describe('square root function', function() {
     assert.strictEqual(res, 3);
   });
 });
+
+ 
+describe('Reciprocal function test', function() {
+  const res = calculator.calculateReciprocal(10);
+  it('should return 0.1', function() {
+    assert.strictEqual(res, 0.1);
+  });
+});
