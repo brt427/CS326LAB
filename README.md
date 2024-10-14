@@ -44,7 +44,7 @@ ensuring the production branch is reliably functional.
 - [ ] Fix reciprocal function
 - [ ] Implement sine function
 - [ ] Implement cosine function
-- [ ] Implement tangent function
+- [x] Implement tangent function
 
 ## How to Set Up The Lab
 
