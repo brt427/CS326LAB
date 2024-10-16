@@ -68,3 +68,10 @@ function runTangent(){
     const v = tagent(display.value)
     display.value = v
 }
+
+document.addEventListener('keydown', function(event) {
+    let key = event.key;
+    if (!isNaN(key) || key === '.') {
+        appendToDisplay(key);
+    }
+});
