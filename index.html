@@ -12,15 +12,15 @@
         }
         #calculator {
             width: 400px;
-            margin: 0 auto;
-            padding: 20px;
+            margin: auto;
+            padding: 50px;
             border: 2px solid #000;
             background-color: darkslategray;
         }
         button {
             width: 70px;
             height: 40px;
-            font-size: 18px;
+            font-size: 20px;
            
         }
         button:hover{
@@ -59,8 +59,6 @@
     <button onclick="appendToDisplay('/')">/</button>
     <button onclick="appendToDisplay('*')">*</button><br><br>
         <!-- Add your features here -->
-
-
     
     <button onclick="appendToDisplay('7')">7</button>
     <button onclick="appendToDisplay('8')">8</button>
@@ -81,6 +79,13 @@
     <button onclick="appendToDisplay('.')">.</button>
 
      <!-- TODO: Add extra function operations -->
+     <button onclick="runSquare()">^2</button>
+     <button onclick="runReciprocal()">rec</button>
+     <button onclick="runNaturalLog()">ln</button>
+     <button onclick="runSine()">Sin</button>
+     <button onclick="runCosine()">Cos</button>
+     <button onclick="runTangent()">Tan</button>
+     
 </div>
 
 <script src="calculator.js"></script>

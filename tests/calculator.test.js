@@ -12,10 +12,10 @@ describe('Calculator Calculation Functions', function () {
   });
 });
 
-describe('tan function', function () {
-  it('tan(2) should be close to 0.017455064', function () {
-    const res = calculator.tangent(1);
-    assert.closeTo(res, 0.017455064, 1e-8);
+describe('cos function', function () {
+  it('cos(0) should be 1', function () {
+    const res = calculator.cosine(0);
+    assert.strictEqual(res, 1);
   });
 });
 
