@@ -69,9 +69,9 @@ function runTangent(){
     display.value = v
 }
 
-document.addEventListener('keydown', function(event) {
-    let key = event.key;
+document.addEventListener('keydown', function(event){
+    let key = event.key
     if (!isNaN(key) || key === '.') {
         appendToDisplay(key);
     }
-});
+})
