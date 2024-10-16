@@ -37,13 +37,13 @@ ensuring the production branch is reliably functional.
 
 ### TODO Features:
 
-- [ ] Implement square root function
-- [ ] Implement square function
-- [ ] Add keyboard support for number input
-- [ ] Improve the design (CSS styling)
-- [ ] Fix reciprocal function
-- [ ] Implement sine function
-- [ ] Implement cosine function
+- [x] Implement square root function
+- [x] Implement square function
+- [x] Add keyboard support for number input
+- [x] Improve the design (CSS styling)
+- [x] Fix reciprocal function
+- [x] Implement sine function
+- [x] Implement cosine function
 - [x] Implement tangent function
 
 ## How to Set Up The Lab
